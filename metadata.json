@@ -1,0 +1,6 @@
+{
+  "name": "Heritage Naturals",
+  "description": "Premium traditional African skincare products. Pure. Natural. Radiant. Est. 2024.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

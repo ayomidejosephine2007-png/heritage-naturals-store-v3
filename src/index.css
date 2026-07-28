@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1B3A2B;
+  --color-forest-light: #2D5842;
+  --color-forest-dark: #0E2218;
+  --color-gold: #C9A961;
+  --color-gold-light: #E0C88E;
+  --color-gold-dark: #A5843E;
+  --color-cream: #FDF8F0;
+  --color-cream-light: #FFFDF9;
+  --color-cream-dark: #F4ECCF;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-forest-dark);
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom fine line-art botanical flourishes */
+.botanical-pattern {
+  background-image: radial-gradient(circle at 100% 150%, var(--color-gold) 24%, white 24%, white 28%, var(--color-gold) 28%, var(--color-gold) 36%, transparent 36%);
+  background-size: 24px 24px;
+}
+
+.glow-gold {
+  box-shadow: 0 0 15px rgba(201, 169, 97, 0.2);
+}
